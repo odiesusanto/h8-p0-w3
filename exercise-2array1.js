@@ -1,6 +1,6 @@
 function balikString(word){
   var string = '';
-  for(i = word.length - 1; i >= 0; i--){
+  for(var i = word.length - 1; i >= 0; i--){
      string = string + word[i];
   }
   return string;
