@@ -7,4 +7,4 @@ function palindrome(kata) {
       return false;
     }
   }  
-}
+} 
