@@ -13,7 +13,7 @@ function angkaPalindrome(num) {
                             //for example if number is 11, and flipped from back to front, then it is a palindrome because it has the same value
     }
     }
-   return angka;
+   return Number(angka); //because it needs to be a number, not a string
   }
   
   console.log(angkaPalindrome(7));
